@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'rpio'
-version = '1.0-0'
+version = '1.1-0'
 -- LuaDist source
 source = {
-  tag = "1.0-0",
+  tag = "1.1-0",
   url = "git://github.com/LuaDist-testing/rpio.git"
 }
 -- Original source
 -- source = {
---   url = 'https://github.com/ryanplusplus/rpio.lua/archive/v1.0-0.tar.gz',
---   dir = 'rpio.lua-1.0-0/src'
+--   url = 'https://github.com/ryanplusplus/rpio.lua/archive/v1.1-0.tar.gz',
+--   dir = 'rpio.lua-1.1-0/src'
 -- }
 description = {
   summary = 'Pure Lua Raspberry Pi GPIO library',
@@ -23,6 +23,6 @@ dependencies = {
 build = {
   type = 'builtin',
   modules = {
-    ['rpio'] = 'rpio.lua'
+    rpio = 'rpio.lua'
   }
 }
